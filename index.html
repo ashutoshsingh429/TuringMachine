@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Turing Machine</title>
+        <script src="class.js" defer></script>
+        <script src="run.js" defer></script>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,900&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="top-container">
+            <img class="top-cloud" src="cloud.png" alt="cloud-img">
+            <h1 class="name">Turing Machine</h1>
+            <h2 class="programmer">by - Ashutosh</h2>
+            <img class="bottom-cloud" src="cloud.png" alt="cloud-img">
+            <img src="mountain.png" alt="mountain-img">
+        </div >
+        <div>
+            <form>
+                <label for="ruleset">Ruleset</label><br><br>
+                <input type="text" id="ruleset" name="ruleset"><br><br>
+                <label for="tape">Tape</label><br><br>
+                <input type="text" id="tape" name="tape"><br><br>
+                <label for="head">Head Initial Setting</label><br><br>
+                <input type="text" id="head" name="head"><br><br>
+                <button type="submit" value="run">Run</button>
+            </form>
+        </div>>
+        <div></div>
+    </body>
+</html>
+
+<!-- {
+    "s1": {
+        "0": ["s1", "0", "R"],
+        "1": ["s1", "1", "R"],
+        "B": ["s2", "B", "L"]
+    },
+    "s2": {
+        "0": ["s3", "1", "L"],
+        "1": ["s2", "0", "L"],
+        "B": ["s3", "1", "L"]
+    },
+    "s3": {
+        "0": ["s3", "0", "L"],
+        "1": ["s3", "1", "L"],
+        "B": ["sh", "B", "R"]
+    }
+} -->
